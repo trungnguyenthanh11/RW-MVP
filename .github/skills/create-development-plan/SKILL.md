@@ -50,9 +50,13 @@ Write the plan in a way that is **self-contained**: the engineer should be able 
 
 ## Output Files
 
-The output is a plan document saved to: `docs/development-plans/YYYY-MM-DD-<userstorynumber>.md`
+This skill produces an **exploratory/ad-hoc plan**, not the mob-agreed task list — use it before or alongside `task-breakdown`, e.g. to scope an ad-hoc change spanning 3+ files, or to draft a first pass before the full mob reviews it.
+
+Save the plan document to: `docs/development-plans/YYYY-MM-DD-<userstorynumber>.md`
 
 Create the `docs/development-plans` directory if it does not exist.
+
+**This is not `docs/dev-spec.md`.** `docs/dev-spec.md` is the single, full-mob-reviewed task list for the story currently in the `task-breakdown` stage (see `AGENTS.md` / `workflow/sdlc-workflow.md`) — the artifact Test reads from during `build`. Once a plan from here is reviewed and agreed by the full mob at `task-breakdown`, write/update `docs/dev-spec.md` from it; don't leave the agreed task list only in `docs/development-plans/`.
 
 ## Plan Document Template
 

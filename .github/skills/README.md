@@ -15,6 +15,16 @@ All BA skills live in `awesome-agents/.github/skills/` — **reference** them fr
 | **ba-wireframe-mockup-generation** | BA | Story needs a visual — text wireframe first, HTML if needed | `awesome-agents/.github/skills/ba-wireframe-mockup-generation/SKILL.md` |
 | **ba-vision-scope-document** | BA | Project needs a Vision & Scope document | `awesome-agents/.github/skills/ba-vision-scope-document/SKILL.md` |
 | **create-development-plan** | Dev | Task breakdown / dev spec generation | `awesome-agents/.github/skills/create-development-plan/SKILL.md` |
+| **codebase-design** | Dev | Designing/reshaping a module's interface, deciding where a seam goes, making code testable | `.github/skills/codebase-design/SKILL.md` |
+| **nextjs-app-router** | Dev | Creating/editing a route, layout, or deciding Server vs Client Component | `.github/skills/nextjs-app-router/SKILL.md` |
+| **nextjs-server-actions** | Dev | Implementing a mutation in `lib/actions/` triggered from a form/component | `.github/skills/nextjs-server-actions/SKILL.md` |
+| **api-design** | Dev | Designing/changing a Route Handler or Server Action's request/response contract | `.github/skills/api-design/SKILL.md` |
+| **frontend-design** | Dev | Building or reshaping new UI — visual direction, typography, layout | `.github/skills/frontend-design/SKILL.md` |
+| **vercel-react-best-practices** | Dev | Writing/reviewing/refactoring any React or Next.js component for performance | `.github/skills/vercel-react-best-practices/SKILL.md` |
+| **prisma-postgres** | Dev | Editing `prisma/schema.prisma` or writing a Prisma query | `.github/skills/prisma-postgres/SKILL.md` |
+| **postgres-performance** | Dev | Writing/reviewing a list, filter, sort, or aggregate query | `.github/skills/postgres-performance/SKILL.md` |
+| **prisma-testing-seeding** | Dev, Test | Writing a unit/integration/E2E test that touches the database | `.github/skills/prisma-testing-seeding/SKILL.md` |
+| **vercel-deployment** | Dev | Touching env vars, runtime config, or deploy/CI behavior | `.github/skills/vercel-deployment/SKILL.md` |
 | **code-review** | Dev | Before merging any change | `.github/skills/code-review/SKILL.md` |
 | **testing-test-strategy** | Test | Define testing scope, risks, approach, and quality gates | `awesome-agents/.github/skills/testing-test-strategy/SKILL.md` |
 | **testing-analyze-requirements** | Test | Assess requirement completeness and testability | `awesome-agents/.github/skills/testing-analyze-requirements/SKILL.md` |

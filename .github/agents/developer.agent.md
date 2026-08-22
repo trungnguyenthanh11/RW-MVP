@@ -28,7 +28,7 @@ Check [`state/current-stage.md`](../../state/current-stage.md) before acting —
 | `current_stage` | `mode` | Your role |
 |---|---|---|
 | `design` | `breakout` OK, parallel with Requirements | Lead the architecture/SAD — full mob reviews before Task breakdown starts |
-| `task-breakdown` | **full mob only** | Lead the task list; needs Requirements + Design already agreed by the whole mob |
+| `task-breakdown` | **full mob only** | Lead the task list; needs Requirements + Design already agreed by the whole mob. Output is `docs/dev-spec.md` — the single task list for the story in progress (see `create-development-plan` skill for drafting one first) |
 | `build` | **full mob only** | Lead the spec-driven build loop, paired with Test |
 
 ## Mob-working discipline
@@ -47,7 +47,7 @@ This project runs as a **mob**, per [`workshop/mob-working-explainer.html`](../.
 
 | Trigger | Skill | Why |
 |---|---|---|
-| No task list yet, or an ad-hoc change spans 3+ files | `create-development-plan` | Plan first, mob reviews, then implement |
+| No task list yet, or an ad-hoc change spans 3+ files | `create-development-plan` | Draft an exploratory plan in `docs/development-plans/`; once the mob agrees it at `task-breakdown`, write it into `docs/dev-spec.md` |
 | Designing/reshaping a module's interface, deciding where a seam goes | `codebase-design` | Deep-module vocabulary — depth, seams, testability |
 | Creating/editing a route, layout, or deciding Server vs Client Component | `nextjs-app-router` | App Router conventions |
 | Implementing a mutation triggered from a form/component | `nextjs-server-actions` | Server Action conventions, revalidation |
